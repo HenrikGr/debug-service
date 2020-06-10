@@ -1,0 +1,25 @@
+{
+  "name": "@hgc-ab/debug-service",
+  "version": "1.0.2",
+  "description": "Debug services",
+  "main": "index.js",
+  "author": "Henrik Grönvall <hgc-ab@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/henrikgr/debug-service.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev-test": "jest --runInBand --detectOpenHandles",
+    "test": "echo \"No test specified\""
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "debug": "^4.1.1",
+    "invariant": "^2.2.4"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
