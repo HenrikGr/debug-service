@@ -1,6 +1,6 @@
 {
   "name": "@hgc-ab/debug-service",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Debug services",
   "main": "index.js",
   "author": "Henrik Grönvall <hgc-ab@outlook.com>",
