@@ -6,7 +6,7 @@
  */
 
 const config = require('./config')
-const debug = require('debug')
+const debug = require('debug')(`${process.env.DEBUG}:*`)
 
 /**
  * Debug services that writes to console when
