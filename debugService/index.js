@@ -6,7 +6,7 @@
  */
 
 const config = require('./config')
-const debug = require('debug')(`${process.env.DEBUG}`)
+const debug = require('debug')
 
 /**
  * Debug services that writes to console when
@@ -23,7 +23,7 @@ const debug = require('debug')(`${process.env.DEBUG}`)
  * @returns {debug.Debugger | *}
  */
 function debugService(moduleName) {
-  return debug(`${process.env.DEBUG}:${moduleName}`)
+  return debug(`${config.appName}:${moduleName}`)
 }
 
 module.exports = debugService
