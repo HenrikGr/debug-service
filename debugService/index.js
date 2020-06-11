@@ -5,8 +5,6 @@
  * and found in the LICENSE file in the root directory of this source tree.
  */
 
-const debug = require('debug')
-
 /**
  * Debug services that writes to console when
  * DEBUG environment variable is set
@@ -22,7 +20,7 @@ const debug = require('debug')
  * @returns {debug.Debugger | *}
  */
 function debugService(moduleName) {
-  return debug(`${process.env.APP_NAME}:${moduleName}`)
+  return require('debug')(`${process.env.APP_NAME}:${moduleName}`)
 }
 
 module.exports = debugService
