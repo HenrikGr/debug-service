@@ -5,7 +5,6 @@
  * and found in the LICENSE file in the root directory of this source tree.
  */
 
-const config = require('./config')
 const debug = require('debug')
 
 /**
@@ -23,7 +22,7 @@ const debug = require('debug')
  * @returns {debug.Debugger | *}
  */
 function debugService(moduleName) {
-  return debug(`${config.debugName}:${moduleName}`)
+  return debug(`${process.env.APP_NAME}:${moduleName}`)
 }
 
 module.exports = debugService

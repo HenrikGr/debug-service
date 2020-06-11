@@ -6,7 +6,7 @@
  */
 
 const config = {
-  debugName: process.env.DEBUG,
+  appName: process.env.APP_NAME,
 }
 
 module.exports = config
