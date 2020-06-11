@@ -23,7 +23,7 @@ const debug = require('debug')
  * @returns {debug.Debugger | *}
  */
 function debugService(moduleName) {
-  return debug(`${config.debugName}:${moduleName}`)
+  return debug(`${process.env.DEBUG}:${moduleName}`)
 }
 
 module.exports = debugService
