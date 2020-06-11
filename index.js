@@ -5,6 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const debugService = require('./debugService')
+const debugService = require('./lib')
 
 module.exports = debugService

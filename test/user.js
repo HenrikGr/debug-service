@@ -1,4 +1,4 @@
 
-const debugService = require('../debugService')
+const debugService = require('../lib')
 const userDebug = debugService('user')
 module.exports = userDebug
