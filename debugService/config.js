@@ -5,11 +5,7 @@
  * and found in the LICENSE file in the root directory of this source tree.
  */
 
-// Ensure env variables are set before setting upp config
-const pkg = require('../package')
-
 const config = {
-  appName: pkg.name,
   debugName: process.env.DEBUG,
 }
 
