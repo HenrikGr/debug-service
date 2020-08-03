@@ -17,7 +17,7 @@ const debug = require('debug')
  * @param {String} moduleName The module name for the namespace
  * @type {function(moduleName): {log: *, error: *}}
  */
-exports = module.exports = function (moduleName) {
+module.exports = function (moduleName) {
 
   /**
    * Check if DEBUG env is set
