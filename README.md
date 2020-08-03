@@ -9,21 +9,18 @@
 Install
 
 ```shell script
-npm i @hgc-ab/crypto-service
+npm i @hgc-ab/debug-service
 ```
 Usage
 
 ```javascript
-const debugService = require('@hgc-ab/debug-service')
+//moduleA.js
+const {log, error} = require('@hgc-ab/debug-service')('moduleA')
 
-//serviceA.js
-const debug = debugService('serviceA')
-
-debug('debug message to the console for service A')
+log('debug message to the console for module A')
+error('error message for the module A')
 
 ```
-
-
 ## License
 MIT
 
