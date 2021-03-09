@@ -11,16 +11,18 @@ Install
 ```shell script
 npm i @hgc-ab/debug-service
 ```
+
 Usage
 
-```javascript
+```typescript
 //moduleA.js
-const {log, error} = require('@hgc-ab/debug-service')('moduleA')
+import { debugService } from '@hgc-ab/debug-service'
+const { log, errorLog } = debugService('moduleA:')
 
 log('debug message to the console for module A')
-error('error message for the module A')
-
+errorLog('error message for the module A')
 ```
+
 ## License
 MIT
 
