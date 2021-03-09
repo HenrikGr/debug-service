@@ -1,7 +1,7 @@
-### Ignore Webstorm specifics
+# Ignore Webstorm specifics
 /.idea/
 
-### Node templates
+# Node templates
 # Logs
 logs
 *.log
@@ -21,6 +21,7 @@ node_modules/
 # Ignore static production build
 /build/
 /public/
+/dist/
 
 # Ignore caches
 .cache/
@@ -29,6 +30,7 @@ node_modules/
 .env.development
 .env.production
 .env
+.prettierrc
 
 # IBM Cloud Foundry
 vcap-local.json

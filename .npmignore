@@ -7,3 +7,9 @@
 node_modules/
 coverage/
 dist/
+build/
+
+# Ignore environment
+.env.development
+.env.production
+.env

@@ -16,8 +16,7 @@ Usage
 
 ```typescript
 //moduleA.js
-import { debugService } from '@hgc-ab/debug-service'
-const { log, errorLog } = debugService('moduleA:')
+const {log, error} = require('@hgc-ab/debug-service')('moduleA')
 
 log('debug message to the console for module A')
 errorLog('error message for the module A')
