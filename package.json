@@ -1,6 +1,6 @@
 {
   "name": "@hgc-ab/debug-service",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Debug services",
   "main": "lib/index.ts",
   "author": "Henrik Grönvall <hgc-ab@outlook.com>",
@@ -15,8 +15,8 @@
     "start:dev": "nodemon",
     "start:debug": "nodemon --inspect",
     "start": "node src/test/index.test.ts",
-    "test-dev": "jest --runInBand --detectOpenHandles",
-    "test": "echo \"No test specified\""
+    "test": "jest --runInBand --detectOpenHandles",
+    "test-back": "echo \"No test specified\""
   },
   "dependencies": {
     "debug": "^4.1.1",
