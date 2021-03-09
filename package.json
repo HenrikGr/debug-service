@@ -1,6 +1,6 @@
 {
   "name": "@hgc-ab/debug-service",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Debug services",
   "main": "lib/index.ts",
   "author": "Henrik Grönvall <hgc-ab@outlook.com>",
