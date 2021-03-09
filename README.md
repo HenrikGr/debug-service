@@ -6,7 +6,7 @@
 
 ## Usage
 
-Install
+Install tha package
 
 ```shell script
 npm i @hgc-ab/debug-service
